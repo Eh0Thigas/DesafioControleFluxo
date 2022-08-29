@@ -17,7 +17,7 @@ public class Contador {
         }catch(ParametrosInvalidosExeption e){
 
         }
-    }
+    }//
 
     static void contar( int p1, int p2)throws ParametrosInvalidosExeption{
 
