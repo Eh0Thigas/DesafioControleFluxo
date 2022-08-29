@@ -25,8 +25,8 @@ public class Contador {
             throw new ParametrosInvalidosExeption();
         }
         
-        for(int i = 0; i < 50; i++){
-
+        for(int i = p1; i <= p2; i++){
+            System.out.println("Imprimindo o numero: " + i);
         }
     }
 
