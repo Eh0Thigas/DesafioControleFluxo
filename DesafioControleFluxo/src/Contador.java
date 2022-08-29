@@ -15,12 +15,19 @@ public class Contador {
         try{
             contar(p1,p2);
         }catch(ParametrosInvalidosExeption e){
-
+            System.out.println("O segundo parametro deve ser maior que o primeiro");
         }
-    }//
+    }
 
     static void contar( int p1, int p2)throws ParametrosInvalidosExeption{
+        
+        if(p1 > p2){
+            throw new ParametrosInvalidosExeption();
+        }
+        
+        for(int i = 0; i < 50; i++){
 
+        }
     }
 
 }
